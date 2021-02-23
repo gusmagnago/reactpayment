@@ -20,7 +20,3 @@ module.exports = (app) => {
     res.send(req.user);
   });
 };
-
-//prod credentials
-//id : 437788752386-pvcvt4r8e3f85sojkprtus1djskve20k.apps.googleusercontent.com
-//pass : QHJKMRJKtjHUg5_OtlTV3ZmB
