@@ -20,8 +20,7 @@ passport.use(
     {
       clientID: keys.googleClientId,
       clientSecret: keys.googleClientSecret,
-      callbackURL:
-        "https://glacial-caverns-04850.herokuapp.com/auth/google/callback",
+      callbackURL: "/auth/google/callback",
       proxy: true,
     },
     (accessToken, refreshToken, profile, done) => {
