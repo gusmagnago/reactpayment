@@ -1,4 +1,3 @@
-//mongoose mongo class
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
